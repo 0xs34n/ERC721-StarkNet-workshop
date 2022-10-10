@@ -1,0 +1,10 @@
+{
+  "name": "Charmeleon",
+  "attributes": [{
+    "trait_type": "Type",
+    "value": "Fire"
+  }],
+  "description": "Charmeleon is a Fire type Pokémon introduced in Generation 1. It is known as the Flame Pokémon.",
+  "image": "",
+  "external_url": "https://pokemondb.net/pokedex/charmeleon"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Charmander",
+  "attributes": [{
+    "trait_type": "Type",
+    "value": "Fire"
+  }],
+  "description": "Charmander is a Fire type Pokémon introduced in Generation 1. It is known as the Lizard Pokémon..",
+  "image": "",
+  "external_url": "https://pokemondb.net/pokedex/charmander"
+}

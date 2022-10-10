@@ -1,0 +1,10 @@
+{
+  "name": "Blastoise",
+  "attributes": [{
+    "trait_type": "Type",
+    "value": "Water"
+  }],
+  "description": "Blastoise is a Water type Pokémon introduced in Generation 1. It is known as the Shellfish Pokémon.",
+  "image": "",
+  "external_url": "https://pokemondb.net/pokedex/blastoise"
+}
