@@ -15365,12 +15365,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 18,
-                        "end_line": 27,
+                        "end_line": 26,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 27
+                        "start_line": 26
                     }
                 },
                 "758": {
@@ -15382,7 +15382,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 40,
-                        "end_line": 24,
+                        "end_line": 23,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
@@ -15396,12 +15396,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 42,
-                                        "end_line": 29,
+                                        "end_line": 28,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 18,
-                                        "start_line": 29
+                                        "start_line": 28
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
@@ -15411,7 +15411,7 @@
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 22,
-                        "start_line": 24
+                        "start_line": 23
                     }
                 },
                 "759": {
@@ -15423,7 +15423,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 68,
-                        "end_line": 24,
+                        "end_line": 23,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
@@ -15437,12 +15437,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 42,
-                                        "end_line": 29,
+                                        "end_line": 28,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 18,
-                                        "start_line": 29
+                                        "start_line": 28
                                     },
                                     "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                 ],
@@ -15452,7 +15452,7 @@
                             "While expanding the reference 'pedersen_ptr' in:"
                         ],
                         "start_col": 42,
-                        "start_line": 24
+                        "start_line": 23
                     }
                 },
                 "760": {
@@ -15464,7 +15464,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 85,
-                        "end_line": 24,
+                        "end_line": 23,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
@@ -15478,12 +15478,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 42,
-                                        "end_line": 29,
+                                        "end_line": 28,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 18,
-                                        "start_line": 29
+                                        "start_line": 28
                                     },
                                     "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                 ],
@@ -15493,7 +15493,7 @@
                             "While expanding the reference 'range_check_ptr' in:"
                         ],
                         "start_col": 70,
-                        "start_line": 24
+                        "start_line": 23
                     }
                 },
                 "761": {
@@ -15505,24 +15505,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 22,
-                        "end_line": 25,
+                        "end_line": 24,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 41,
-                                "end_line": 29,
+                                "end_line": 28,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 33,
-                                "start_line": 29
+                                "start_line": 28
                             },
                             "While expanding the reference 'token_id' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 25
+                        "start_line": 24
                     }
                 },
                 "762": {
@@ -15534,24 +15534,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 22,
-                        "end_line": 25,
+                        "end_line": 24,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 41,
-                                "end_line": 29,
+                                "end_line": 28,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 33,
-                                "start_line": 29
+                                "start_line": 28
                             },
                             "While expanding the reference 'token_id' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 25
+                        "start_line": 24
                     }
                 },
                 "763": {
@@ -15563,12 +15563,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 42,
-                        "end_line": 29,
+                        "end_line": 28,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 18,
-                        "start_line": 29
+                        "start_line": 28
                     }
                 },
                 "765": {
@@ -15579,13 +15579,13 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 26,
-                        "end_line": 30,
+                        "end_col": 23,
+                        "end_line": 29,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 30
+                        "start_line": 29
                     }
                 },
                 "767": {
@@ -15597,12 +15597,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 40,
-                        "end_line": 33,
+                        "end_line": 32,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 33,
-                        "start_line": 33
+                        "start_line": 32
                     }
                 },
                 "769": {
@@ -15614,12 +15614,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 29,
-                        "end_line": 33,
+                        "end_line": 32,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 10,
-                        "start_line": 33
+                        "start_line": 32
                     }
                 },
                 "770": {
@@ -15638,7 +15638,7 @@
                         "parent_location": [
                             {
                                 "end_col": 42,
-                                "end_line": 29,
+                                "end_line": 28,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
@@ -15652,12 +15652,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 68,
-                                                "end_line": 34,
+                                                "end_line": 33,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 37,
-                                                "start_line": 34
+                                                "start_line": 33
                                             },
                                             "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                         ],
@@ -15667,7 +15667,7 @@
                                     "While expanding the reference 'syscall_ptr' in:"
                                 ],
                                 "start_col": 18,
-                                "start_line": 29
+                                "start_line": 28
                             },
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
@@ -15691,7 +15691,7 @@
                         "parent_location": [
                             {
                                 "end_col": 42,
-                                "end_line": 29,
+                                "end_line": 28,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
@@ -15705,12 +15705,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 68,
-                                                "end_line": 34,
+                                                "end_line": 33,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 37,
-                                                "start_line": 34
+                                                "start_line": 33
                                             },
                                             "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                         ],
@@ -15720,7 +15720,7 @@
                                     "While expanding the reference 'pedersen_ptr' in:"
                                 ],
                                 "start_col": 18,
-                                "start_line": 29
+                                "start_line": 28
                             },
                             "While trying to update the implicit return value 'pedersen_ptr' in:"
                         ],
@@ -15744,7 +15744,7 @@
                         "parent_location": [
                             {
                                 "end_col": 42,
-                                "end_line": 29,
+                                "end_line": 28,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
@@ -15758,12 +15758,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 68,
-                                                "end_line": 34,
+                                                "end_line": 33,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 37,
-                                                "start_line": 34
+                                                "start_line": 33
                                             },
                                             "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                         ],
@@ -15773,7 +15773,7 @@
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 18,
-                                "start_line": 29
+                                "start_line": 28
                             },
                             "While trying to update the implicit return value 'range_check_ptr' in:"
                         ],
@@ -15790,12 +15790,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 68,
-                        "end_line": 34,
+                        "end_line": 33,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 37,
-                        "start_line": 34
+                        "start_line": 33
                     }
                 },
                 "775": {
@@ -15807,12 +15807,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 33,
-                        "end_line": 34,
+                        "end_line": 33,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 10,
-                        "start_line": 34
+                        "start_line": 33
                     }
                 },
                 "776": {
@@ -15831,36 +15831,36 @@
                         "parent_location": [
                             {
                                 "end_col": 68,
-                                "end_line": 34,
+                                "end_line": 33,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 45,
-                                        "end_line": 44,
+                                        "end_line": 43,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 59,
-                                                "end_line": 35,
+                                                "end_line": 34,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 5,
-                                                "start_line": 35
+                                                "start_line": 34
                                             },
                                             "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                         ],
                                         "start_col": 27,
-                                        "start_line": 44
+                                        "start_line": 43
                                     },
                                     "While expanding the reference 'syscall_ptr' in:"
                                 ],
                                 "start_col": 37,
-                                "start_line": 34
+                                "start_line": 33
                             },
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
@@ -15884,36 +15884,36 @@
                         "parent_location": [
                             {
                                 "end_col": 68,
-                                "end_line": 34,
+                                "end_line": 33,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 73,
-                                        "end_line": 44,
+                                        "end_line": 43,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 59,
-                                                "end_line": 35,
+                                                "end_line": 34,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 5,
-                                                "start_line": 35
+                                                "start_line": 34
                                             },
                                             "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                         ],
                                         "start_col": 47,
-                                        "start_line": 44
+                                        "start_line": 43
                                     },
                                     "While expanding the reference 'pedersen_ptr' in:"
                                 ],
                                 "start_col": 37,
-                                "start_line": 34
+                                "start_line": 33
                             },
                             "While trying to update the implicit return value 'pedersen_ptr' in:"
                         ],
@@ -15937,36 +15937,36 @@
                         "parent_location": [
                             {
                                 "end_col": 68,
-                                "end_line": 34,
+                                "end_line": 33,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 90,
-                                        "end_line": 44,
+                                        "end_line": 43,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 59,
-                                                "end_line": 35,
+                                                "end_line": 34,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 5,
-                                                "start_line": 35
+                                                "start_line": 34
                                             },
                                             "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                         ],
                                         "start_col": 75,
-                                        "start_line": 44
+                                        "start_line": 43
                                     },
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 37,
-                                "start_line": 34
+                                "start_line": 33
                             },
                             "While trying to update the implicit return value 'range_check_ptr' in:"
                         ],
@@ -15983,24 +15983,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 33,
-                        "end_line": 34,
+                        "end_line": 33,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 43,
-                                "end_line": 35,
+                                "end_line": 34,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 26,
-                                "start_line": 35
+                                "start_line": 34
                             },
                             "While expanding the reference 'base_tokenURI_len' in:"
                         ],
                         "start_col": 16,
-                        "start_line": 34
+                        "start_line": 33
                     }
                 },
                 "780": {
@@ -16012,24 +16012,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 29,
-                        "end_line": 33,
+                        "end_line": 32,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 58,
-                                "end_line": 35,
+                                "end_line": 34,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 45,
-                                "start_line": 35
+                                "start_line": 34
                             },
                             "While expanding the reference 'base_tokenURI' in:"
                         ],
                         "start_col": 16,
-                        "start_line": 33
+                        "start_line": 32
                     }
                 },
                 "781": {
@@ -16041,12 +16041,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 59,
-                        "end_line": 35,
+                        "end_line": 34,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 35
+                        "start_line": 34
                     }
                 },
                 "783": {
@@ -16058,48 +16058,48 @@
                     "hints": [],
                     "inst": {
                         "end_col": 45,
-                        "end_line": 44,
+                        "end_line": 43,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 59,
-                                "end_line": 35,
+                                "end_line": 34,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 45,
-                                        "end_line": 44,
+                                        "end_line": 43,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 59,
-                                                "end_line": 35,
+                                                "end_line": 34,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 5,
-                                                "start_line": 35
+                                                "start_line": 34
                                             },
                                             "While trying to update the implicit return value 'syscall_ptr' in:"
                                         ],
                                         "start_col": 27,
-                                        "start_line": 44
+                                        "start_line": 43
                                     },
                                     "While auto generating local variable for 'syscall_ptr'."
                                 ],
                                 "start_col": 5,
-                                "start_line": 35
+                                "start_line": 34
                             },
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
                         "start_col": 27,
-                        "start_line": 44
+                        "start_line": 43
                     }
                 },
                 "784": {
@@ -16111,48 +16111,48 @@
                     "hints": [],
                     "inst": {
                         "end_col": 73,
-                        "end_line": 44,
+                        "end_line": 43,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 59,
-                                "end_line": 35,
+                                "end_line": 34,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 73,
-                                        "end_line": 44,
+                                        "end_line": 43,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 59,
-                                                "end_line": 35,
+                                                "end_line": 34,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 5,
-                                                "start_line": 35
+                                                "start_line": 34
                                             },
                                             "While trying to update the implicit return value 'pedersen_ptr' in:"
                                         ],
                                         "start_col": 47,
-                                        "start_line": 44
+                                        "start_line": 43
                                     },
                                     "While auto generating local variable for 'pedersen_ptr'."
                                 ],
                                 "start_col": 5,
-                                "start_line": 35
+                                "start_line": 34
                             },
                             "While trying to update the implicit return value 'pedersen_ptr' in:"
                         ],
                         "start_col": 47,
-                        "start_line": 44
+                        "start_line": 43
                     }
                 },
                 "785": {
@@ -16164,24 +16164,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 22,
-                        "end_line": 25,
+                        "end_line": 24,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 64,
-                                "end_line": 36,
+                                "end_line": 35,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 56,
-                                "start_line": 36
+                                "start_line": 35
                             },
                             "While expanding the reference 'token_id' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 25
+                        "start_line": 24
                     }
                 },
                 "786": {
@@ -16193,24 +16193,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 22,
-                        "end_line": 25,
+                        "end_line": 24,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 64,
-                                "end_line": 36,
+                                "end_line": 35,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 56,
-                                "start_line": 36
+                                "start_line": 35
                             },
                             "While expanding the reference 'token_id' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 25
+                        "start_line": 24
                     }
                 },
                 "787": {
@@ -16222,12 +16222,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 65,
-                        "end_line": 36,
+                        "end_line": 35,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 42,
-                        "start_line": 36
+                        "start_line": 35
                     }
                 },
                 "789": {
@@ -16246,7 +16246,7 @@
                         "parent_location": [
                             {
                                 "end_col": 65,
-                                "end_line": 36,
+                                "end_line": 35,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
@@ -16260,12 +16260,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 6,
-                                                "end_line": 39,
+                                                "end_line": 38,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 36,
-                                                "start_line": 37
+                                                "start_line": 36
                                             },
                                             "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                         ],
@@ -16275,7 +16275,7 @@
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 42,
-                                "start_line": 36
+                                "start_line": 35
                             },
                             "While trying to update the implicit return value 'range_check_ptr' in:"
                         ],
@@ -16292,24 +16292,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 33,
-                        "end_line": 34,
+                        "end_line": 33,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 26,
-                                "end_line": 38,
+                                "end_line": 37,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 9,
-                                "start_line": 38
+                                "start_line": 37
                             },
                             "While expanding the reference 'base_tokenURI_len' in:"
                         ],
                         "start_col": 16,
-                        "start_line": 34
+                        "start_line": 33
                     }
                 },
                 "791": {
@@ -16321,24 +16321,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 29,
-                        "end_line": 33,
+                        "end_line": 32,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 41,
-                                "end_line": 38,
+                                "end_line": 37,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 28,
-                                "start_line": 38
+                                "start_line": 37
                             },
                             "While expanding the reference 'base_tokenURI' in:"
                         ],
                         "start_col": 16,
-                        "start_line": 33
+                        "start_line": 32
                     }
                 },
                 "792": {
@@ -16350,24 +16350,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 25,
-                        "end_line": 36,
+                        "end_line": 35,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 58,
-                                "end_line": 38,
+                                "end_line": 37,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 43,
-                                "start_line": 38
+                                "start_line": 37
                             },
                             "While expanding the reference 'token_id_ss_len' in:"
                         ],
                         "start_col": 10,
-                        "start_line": 36
+                        "start_line": 35
                     }
                 },
                 "793": {
@@ -16379,24 +16379,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 38,
-                        "end_line": 36,
+                        "end_line": 35,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 71,
-                                "end_line": 38,
+                                "end_line": 37,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 60,
-                                "start_line": 38
+                                "start_line": 37
                             },
                             "While expanding the reference 'token_id_ss' in:"
                         ],
                         "start_col": 27,
-                        "start_line": 36
+                        "start_line": 35
                     }
                 },
                 "794": {
@@ -16408,12 +16408,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 6,
-                        "end_line": 39,
+                        "end_line": 38,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 36,
-                        "start_line": 37
+                        "start_line": 36
                     }
                 },
                 "796": {
@@ -16425,72 +16425,72 @@
                     "hints": [],
                     "inst": {
                         "end_col": 45,
-                        "end_line": 44,
+                        "end_line": 43,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 59,
-                                "end_line": 35,
+                                "end_line": 34,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 45,
-                                        "end_line": 44,
+                                        "end_line": 43,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 59,
-                                                "end_line": 35,
+                                                "end_line": 34,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "parent_location": [
                                                     {
                                                         "end_col": 40,
-                                                        "end_line": 24,
+                                                        "end_line": 23,
                                                         "input_file": {
                                                             "filename": "contracts/tokenURI_library.cairo"
                                                         },
                                                         "parent_location": [
                                                             {
                                                                 "end_col": 59,
-                                                                "end_line": 41,
+                                                                "end_line": 40,
                                                                 "input_file": {
                                                                     "filename": "contracts/tokenURI_library.cairo"
                                                                 },
                                                                 "start_col": 5,
-                                                                "start_line": 41
+                                                                "start_line": 40
                                                             },
                                                             "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                                         ],
                                                         "start_col": 22,
-                                                        "start_line": 24
+                                                        "start_line": 23
                                                     },
                                                     "While expanding the reference 'syscall_ptr' in:"
                                                 ],
                                                 "start_col": 5,
-                                                "start_line": 35
+                                                "start_line": 34
                                             },
                                             "While trying to update the implicit return value 'syscall_ptr' in:"
                                         ],
                                         "start_col": 27,
-                                        "start_line": 44
+                                        "start_line": 43
                                     },
                                     "While auto generating local variable for 'syscall_ptr'."
                                 ],
                                 "start_col": 5,
-                                "start_line": 35
+                                "start_line": 34
                             },
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
                         "start_col": 27,
-                        "start_line": 44
+                        "start_line": 43
                     }
                 },
                 "797": {
@@ -16502,72 +16502,72 @@
                     "hints": [],
                     "inst": {
                         "end_col": 73,
-                        "end_line": 44,
+                        "end_line": 43,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 59,
-                                "end_line": 35,
+                                "end_line": 34,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 73,
-                                        "end_line": 44,
+                                        "end_line": 43,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 59,
-                                                "end_line": 35,
+                                                "end_line": 34,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "parent_location": [
                                                     {
                                                         "end_col": 68,
-                                                        "end_line": 24,
+                                                        "end_line": 23,
                                                         "input_file": {
                                                             "filename": "contracts/tokenURI_library.cairo"
                                                         },
                                                         "parent_location": [
                                                             {
                                                                 "end_col": 59,
-                                                                "end_line": 41,
+                                                                "end_line": 40,
                                                                 "input_file": {
                                                                     "filename": "contracts/tokenURI_library.cairo"
                                                                 },
                                                                 "start_col": 5,
-                                                                "start_line": 41
+                                                                "start_line": 40
                                                             },
                                                             "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                                         ],
                                                         "start_col": 42,
-                                                        "start_line": 24
+                                                        "start_line": 23
                                                     },
                                                     "While expanding the reference 'pedersen_ptr' in:"
                                                 ],
                                                 "start_col": 5,
-                                                "start_line": 35
+                                                "start_line": 34
                                             },
                                             "While trying to update the implicit return value 'pedersen_ptr' in:"
                                         ],
                                         "start_col": 47,
-                                        "start_line": 44
+                                        "start_line": 43
                                     },
                                     "While auto generating local variable for 'pedersen_ptr'."
                                 ],
                                 "start_col": 5,
-                                "start_line": 35
+                                "start_line": 34
                             },
                             "While trying to update the implicit return value 'pedersen_ptr' in:"
                         ],
                         "start_col": 47,
-                        "start_line": 44
+                        "start_line": 43
                     }
                 },
                 "798": {
@@ -16586,36 +16586,36 @@
                         "parent_location": [
                             {
                                 "end_col": 6,
-                                "end_line": 39,
+                                "end_line": 38,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 85,
-                                        "end_line": 24,
+                                        "end_line": 23,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 59,
-                                                "end_line": 41,
+                                                "end_line": 40,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 5,
-                                                "start_line": 41
+                                                "start_line": 40
                                             },
                                             "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                         ],
                                         "start_col": 70,
-                                        "start_line": 24
+                                        "start_line": 23
                                     },
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 36,
-                                "start_line": 37
+                                "start_line": 36
                             },
                             "While trying to update the implicit return value 'range_check_ptr' in:"
                         ],
@@ -16632,24 +16632,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 32,
-                        "end_line": 37,
+                        "end_line": 36,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 38,
-                                "end_line": 41,
+                                "end_line": 40,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 26,
-                                "start_line": 41
+                                "start_line": 40
                             },
                             "While expanding the reference 'tokenURI_len' in:"
                         ],
                         "start_col": 20,
-                        "start_line": 37
+                        "start_line": 36
                     }
                 },
                 "800": {
@@ -16661,24 +16661,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 18,
-                        "end_line": 37,
+                        "end_line": 36,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 57,
-                                "end_line": 41,
+                                "end_line": 40,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 49,
-                                "start_line": 41
+                                "start_line": 40
                             },
                             "While expanding the reference 'tokenURI' in:"
                         ],
                         "start_col": 10,
-                        "start_line": 37
+                        "start_line": 36
                     }
                 },
                 "801": {
@@ -16690,12 +16690,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 59,
-                        "end_line": 41,
+                        "end_line": 40,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 41
+                        "start_line": 40
                     }
                 },
                 "802": {
@@ -16707,12 +16707,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 7,
-                        "end_line": 47,
+                        "end_line": 46,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 47
+                        "start_line": 46
                     }
                 },
                 "804": {
@@ -16724,36 +16724,36 @@
                     "hints": [],
                     "inst": {
                         "end_col": 45,
-                        "end_line": 44,
+                        "end_line": 43,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 45,
-                                "end_line": 44,
+                                "end_line": 43,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 19,
-                                        "end_line": 48,
+                                        "end_line": 47,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 9,
-                                        "start_line": 48
+                                        "start_line": 47
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 27,
-                                "start_line": 44
+                                "start_line": 43
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 27,
-                        "start_line": 44
+                        "start_line": 43
                     }
                 },
                 "805": {
@@ -16765,36 +16765,36 @@
                     "hints": [],
                     "inst": {
                         "end_col": 73,
-                        "end_line": 44,
+                        "end_line": 43,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 73,
-                                "end_line": 44,
+                                "end_line": 43,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 19,
-                                        "end_line": 48,
+                                        "end_line": 47,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 9,
-                                        "start_line": 48
+                                        "start_line": 47
                                     },
                                     "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                 ],
                                 "start_col": 47,
-                                "start_line": 44
+                                "start_line": 43
                             },
                             "While expanding the reference 'pedersen_ptr' in:"
                         ],
                         "start_col": 47,
-                        "start_line": 44
+                        "start_line": 43
                     }
                 },
                 "806": {
@@ -16806,36 +16806,36 @@
                     "hints": [],
                     "inst": {
                         "end_col": 90,
-                        "end_line": 44,
+                        "end_line": 43,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 90,
-                                "end_line": 44,
+                                "end_line": 43,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 19,
-                                        "end_line": 48,
+                                        "end_line": 47,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 9,
-                                        "start_line": 48
+                                        "start_line": 47
                                     },
                                     "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                 ],
                                 "start_col": 75,
-                                "start_line": 44
+                                "start_line": 43
                             },
                             "While expanding the reference 'range_check_ptr' in:"
                         ],
                         "start_col": 75,
-                        "start_line": 44
+                        "start_line": 43
                     }
                 },
                 "807": {
@@ -16847,12 +16847,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 19,
-                        "end_line": 48,
+                        "end_line": 47,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 9,
-                        "start_line": 48
+                        "start_line": 47
                     }
                 },
                 "808": {
@@ -16864,7 +16864,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 45,
-                        "end_line": 44,
+                        "end_line": 43,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
@@ -16878,12 +16878,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 62,
-                                        "end_line": 50,
+                                        "end_line": 49,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 18,
-                                        "start_line": 50
+                                        "start_line": 49
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
@@ -16893,7 +16893,7 @@
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 27,
-                        "start_line": 44
+                        "start_line": 43
                     }
                 },
                 "809": {
@@ -16905,7 +16905,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 73,
-                        "end_line": 44,
+                        "end_line": 43,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
@@ -16919,12 +16919,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 62,
-                                        "end_line": 50,
+                                        "end_line": 49,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 18,
-                                        "start_line": 50
+                                        "start_line": 49
                                     },
                                     "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                 ],
@@ -16934,7 +16934,7 @@
                             "While expanding the reference 'pedersen_ptr' in:"
                         ],
                         "start_col": 47,
-                        "start_line": 44
+                        "start_line": 43
                     }
                 },
                 "810": {
@@ -16946,7 +16946,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 90,
-                        "end_line": 44,
+                        "end_line": 43,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
@@ -16960,12 +16960,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 62,
-                                        "end_line": 50,
+                                        "end_line": 49,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 18,
-                                        "start_line": 50
+                                        "start_line": 49
                                     },
                                     "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                 ],
@@ -16975,7 +16975,7 @@
                             "While expanding the reference 'range_check_ptr' in:"
                         ],
                         "start_col": 75,
-                        "start_line": 44
+                        "start_line": 43
                     }
                 },
                 "811": {
@@ -16987,24 +16987,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 28,
-                        "end_line": 45,
+                        "end_line": 44,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 61,
-                                "end_line": 50,
+                                "end_line": 49,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 44,
-                                "start_line": 50
+                                "start_line": 49
                             },
                             "While expanding the reference 'base_tokenURI_len' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 45
+                        "start_line": 44
                     }
                 },
                 "812": {
@@ -17016,12 +17016,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 62,
-                        "end_line": 50,
+                        "end_line": 49,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 18,
-                        "start_line": 50
+                        "start_line": 49
                     }
                 },
                 "814": {
@@ -17033,12 +17033,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 35,
-                        "end_line": 51,
+                        "end_line": 50,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 51
+                        "start_line": 50
                     }
                 },
                 "815": {
@@ -17057,36 +17057,36 @@
                         "parent_location": [
                             {
                                 "end_col": 62,
-                                "end_line": 50,
+                                "end_line": 49,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 45,
-                                        "end_line": 44,
+                                        "end_line": 43,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 99,
-                                                "end_line": 52,
+                                                "end_line": 51,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 5,
-                                                "start_line": 52
+                                                "start_line": 51
                                             },
                                             "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                         ],
                                         "start_col": 27,
-                                        "start_line": 44
+                                        "start_line": 43
                                     },
                                     "While expanding the reference 'syscall_ptr' in:"
                                 ],
                                 "start_col": 18,
-                                "start_line": 50
+                                "start_line": 49
                             },
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
@@ -17110,36 +17110,36 @@
                         "parent_location": [
                             {
                                 "end_col": 62,
-                                "end_line": 50,
+                                "end_line": 49,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 73,
-                                        "end_line": 44,
+                                        "end_line": 43,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 99,
-                                                "end_line": 52,
+                                                "end_line": 51,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 5,
-                                                "start_line": 52
+                                                "start_line": 51
                                             },
                                             "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                         ],
                                         "start_col": 47,
-                                        "start_line": 44
+                                        "start_line": 43
                                     },
                                     "While expanding the reference 'pedersen_ptr' in:"
                                 ],
                                 "start_col": 18,
-                                "start_line": 50
+                                "start_line": 49
                             },
                             "While trying to update the implicit return value 'pedersen_ptr' in:"
                         ],
@@ -17163,36 +17163,36 @@
                         "parent_location": [
                             {
                                 "end_col": 62,
-                                "end_line": 50,
+                                "end_line": 49,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 90,
-                                        "end_line": 44,
+                                        "end_line": 43,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "parent_location": [
                                             {
                                                 "end_col": 99,
-                                                "end_line": 52,
+                                                "end_line": 51,
                                                 "input_file": {
                                                     "filename": "contracts/tokenURI_library.cairo"
                                                 },
                                                 "start_col": 5,
-                                                "start_line": 52
+                                                "start_line": 51
                                             },
                                             "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                         ],
                                         "start_col": 75,
-                                        "start_line": 44
+                                        "start_line": 43
                                     },
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 18,
-                                "start_line": 50
+                                "start_line": 49
                             },
                             "While trying to update the implicit return value 'range_check_ptr' in:"
                         ],
@@ -17209,12 +17209,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 65,
-                        "end_line": 52,
+                        "end_line": 51,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 44,
-                        "start_line": 52
+                        "start_line": 51
                     }
                 },
                 "820": {
@@ -17226,12 +17226,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 98,
-                        "end_line": 52,
+                        "end_line": 51,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 81,
-                        "start_line": 52
+                        "start_line": 51
                     }
                 },
                 "822": {
@@ -17243,12 +17243,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 99,
-                        "end_line": 52,
+                        "end_line": 51,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 52
+                        "start_line": 51
                     }
                 },
                 "824": {
@@ -17260,12 +17260,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 15,
-                        "end_line": 53,
+                        "end_line": 52,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 53
+                        "start_line": 52
                     }
                 },
                 "825": {
@@ -17277,36 +17277,36 @@
                     "hints": [],
                     "inst": {
                         "end_col": 47,
-                        "end_line": 56,
+                        "end_line": 55,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 48,
-                                "end_line": 64,
+                                "end_line": 63,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 52,
-                                        "end_line": 59,
+                                        "end_line": 58,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 59
+                                        "start_line": 58
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 30,
-                                "start_line": 64
+                                "start_line": 63
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 29,
-                        "start_line": 56
+                        "start_line": 55
                     }
                 },
                 "826": {
@@ -17318,36 +17318,36 @@
                     "hints": [],
                     "inst": {
                         "end_col": 75,
-                        "end_line": 56,
+                        "end_line": 55,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 76,
-                                "end_line": 64,
+                                "end_line": 63,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 52,
-                                        "end_line": 59,
+                                        "end_line": 58,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 59
+                                        "start_line": 58
                                     },
                                     "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                 ],
                                 "start_col": 50,
-                                "start_line": 64
+                                "start_line": 63
                             },
                             "While expanding the reference 'pedersen_ptr' in:"
                         ],
                         "start_col": 49,
-                        "start_line": 56
+                        "start_line": 55
                     }
                 },
                 "827": {
@@ -17359,36 +17359,36 @@
                     "hints": [],
                     "inst": {
                         "end_col": 92,
-                        "end_line": 56,
+                        "end_line": 55,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 93,
-                                "end_line": 64,
+                                "end_line": 63,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 52,
-                                        "end_line": 59,
+                                        "end_line": 58,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 59
+                                        "start_line": 58
                                     },
                                     "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                 ],
                                 "start_col": 78,
-                                "start_line": 64
+                                "start_line": 63
                             },
                             "While expanding the reference 'range_check_ptr' in:"
                         ],
                         "start_col": 77,
-                        "start_line": 56
+                        "start_line": 55
                     }
                 },
                 "828": {
@@ -17400,24 +17400,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 23,
-                        "end_line": 57,
+                        "end_line": 56,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 41,
-                                "end_line": 59,
+                                "end_line": 58,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 29,
-                                "start_line": 59
+                                "start_line": 58
                             },
                             "While expanding the reference 'tokenURI_len' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 57
+                        "start_line": 56
                     }
                 },
                 "829": {
@@ -17429,24 +17429,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 40,
-                        "end_line": 57,
+                        "end_line": 56,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 51,
-                                "end_line": 59,
+                                "end_line": 58,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 43,
-                                "start_line": 59
+                                "start_line": 58
                             },
                             "While expanding the reference 'tokenURI' in:"
                         ],
                         "start_col": 25,
-                        "start_line": 57
+                        "start_line": 56
                     }
                 },
                 "830": {
@@ -17458,12 +17458,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 52,
-                        "end_line": 59,
+                        "end_line": 58,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 59
+                        "start_line": 58
                     }
                 },
                 "832": {
@@ -17475,24 +17475,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 23,
-                        "end_line": 57,
+                        "end_line": 56,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 48,
-                                "end_line": 60,
+                                "end_line": 59,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 36,
-                                "start_line": 60
+                                "start_line": 59
                             },
                             "While expanding the reference 'tokenURI_len' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 57
+                        "start_line": 56
                     }
                 },
                 "833": {
@@ -17504,12 +17504,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 49,
-                        "end_line": 60,
+                        "end_line": 59,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 60
+                        "start_line": 59
                     }
                 },
                 "835": {
@@ -17521,12 +17521,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 15,
-                        "end_line": 61,
+                        "end_line": 60,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 61
+                        "start_line": 60
                     }
                 },
                 "836": {
@@ -17538,12 +17538,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 7,
-                        "end_line": 67,
+                        "end_line": 66,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 67
+                        "start_line": 66
                     }
                 },
                 "838": {
@@ -17555,36 +17555,36 @@
                     "hints": [],
                     "inst": {
                         "end_col": 48,
-                        "end_line": 64,
+                        "end_line": 63,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 48,
-                                "end_line": 64,
+                                "end_line": 63,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 19,
-                                        "end_line": 68,
+                                        "end_line": 67,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 9,
-                                        "start_line": 68
+                                        "start_line": 67
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 30,
-                                "start_line": 64
+                                "start_line": 63
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 30,
-                        "start_line": 64
+                        "start_line": 63
                     }
                 },
                 "839": {
@@ -17596,36 +17596,36 @@
                     "hints": [],
                     "inst": {
                         "end_col": 76,
-                        "end_line": 64,
+                        "end_line": 63,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 76,
-                                "end_line": 64,
+                                "end_line": 63,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 19,
-                                        "end_line": 68,
+                                        "end_line": 67,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 9,
-                                        "start_line": 68
+                                        "start_line": 67
                                     },
                                     "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                 ],
                                 "start_col": 50,
-                                "start_line": 64
+                                "start_line": 63
                             },
                             "While expanding the reference 'pedersen_ptr' in:"
                         ],
                         "start_col": 50,
-                        "start_line": 64
+                        "start_line": 63
                     }
                 },
                 "840": {
@@ -17637,36 +17637,36 @@
                     "hints": [],
                     "inst": {
                         "end_col": 93,
-                        "end_line": 64,
+                        "end_line": 63,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 93,
-                                "end_line": 64,
+                                "end_line": 63,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 19,
-                                        "end_line": 68,
+                                        "end_line": 67,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 9,
-                                        "start_line": 68
+                                        "start_line": 67
                                     },
                                     "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                 ],
                                 "start_col": 78,
-                                "start_line": 64
+                                "start_line": 63
                             },
                             "While expanding the reference 'range_check_ptr' in:"
                         ],
                         "start_col": 78,
-                        "start_line": 64
+                        "start_line": 63
                     }
                 },
                 "841": {
@@ -17678,12 +17678,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 19,
-                        "end_line": 68,
+                        "end_line": 67,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 9,
-                        "start_line": 68
+                        "start_line": 67
                     }
                 },
                 "842": {
@@ -17695,7 +17695,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 48,
-                        "end_line": 64,
+                        "end_line": 63,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
@@ -17709,12 +17709,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 69,
-                                        "end_line": 70,
+                                        "end_line": 69,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 70
+                                        "start_line": 69
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
@@ -17724,7 +17724,7 @@
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 30,
-                        "start_line": 64
+                        "start_line": 63
                     }
                 },
                 "843": {
@@ -17736,7 +17736,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 76,
-                        "end_line": 64,
+                        "end_line": 63,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
@@ -17750,12 +17750,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 69,
-                                        "end_line": 70,
+                                        "end_line": 69,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 70
+                                        "start_line": 69
                                     },
                                     "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                 ],
@@ -17765,7 +17765,7 @@
                             "While expanding the reference 'pedersen_ptr' in:"
                         ],
                         "start_col": 50,
-                        "start_line": 64
+                        "start_line": 63
                     }
                 },
                 "844": {
@@ -17777,7 +17777,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 93,
-                        "end_line": 64,
+                        "end_line": 63,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
@@ -17791,12 +17791,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 69,
-                                        "end_line": 70,
+                                        "end_line": 69,
                                         "input_file": {
                                             "filename": "contracts/tokenURI_library.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 70
+                                        "start_line": 69
                                     },
                                     "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                 ],
@@ -17806,7 +17806,7 @@
                             "While expanding the reference 'range_check_ptr' in:"
                         ],
                         "start_col": 78,
-                        "start_line": 64
+                        "start_line": 63
                     }
                 },
                 "845": {
@@ -17818,24 +17818,24 @@
                     "hints": [],
                     "inst": {
                         "end_col": 23,
-                        "end_line": 65,
+                        "end_line": 64,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 50,
-                                "end_line": 70,
+                                "end_line": 69,
                                 "input_file": {
                                     "filename": "contracts/tokenURI_library.cairo"
                                 },
                                 "start_col": 38,
-                                "start_line": 70
+                                "start_line": 69
                             },
                             "While expanding the reference 'tokenURI_len' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 65
+                        "start_line": 64
                     }
                 },
                 "846": {
@@ -17847,12 +17847,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 68,
-                        "end_line": 70,
+                        "end_line": 69,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 58,
-                        "start_line": 70
+                        "start_line": 69
                     }
                 },
                 "847": {
@@ -17864,12 +17864,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 69,
-                        "end_line": 70,
+                        "end_line": 69,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 70
+                        "start_line": 69
                     }
                 },
                 "849": {
@@ -17881,12 +17881,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 58,
-                        "end_line": 71,
+                        "end_line": 70,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 42,
-                        "start_line": 71
+                        "start_line": 70
                     }
                 },
                 "851": {
@@ -17898,12 +17898,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 81,
-                        "end_line": 71,
+                        "end_line": 70,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 69,
-                        "start_line": 71
+                        "start_line": 70
                     }
                 },
                 "853": {
@@ -17915,12 +17915,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 82,
-                        "end_line": 71,
+                        "end_line": 70,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 71
+                        "start_line": 70
                     }
                 },
                 "855": {
@@ -17932,12 +17932,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 15,
-                        "end_line": 72,
+                        "end_line": 71,
                         "input_file": {
                             "filename": "contracts/tokenURI_library.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 72
+                        "start_line": 71
                     }
                 }
             }
@@ -18736,10 +18736,6 @@
             },
             "__main__.HashBuiltin": {
                 "destination": "starkware.cairo.common.cairo_builtins.HashBuiltin",
-                "type": "alias"
-            },
-            "__main__.TRUE": {
-                "destination": "starkware.cairo.common.bool.TRUE",
                 "type": "alias"
             },
             "__main__.Uint256": {

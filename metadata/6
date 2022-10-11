@@ -5,6 +5,6 @@
     "value": "Fire Flying"
   }],
   "description": "Charizard is a Fire/Flying type Pokémon introduced in Generation 1. It is known as the Flame Pokémon.",
-  "image": "",
+  "image": "https://raw.githubusercontent.com/0xs34n/ERC721-StarkNet-workshop/main/metadata/6.png",
   "external_url": "https://pokemondb.net/pokedex/charizard"
 }

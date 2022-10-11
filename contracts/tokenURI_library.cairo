@@ -7,7 +7,6 @@ from starkware.cairo.common.uint256 import Uint256
 from openzeppelin.token.erc721.library import ERC721
 from contracts.utils.ShortString import uint256_to_ss
 from contracts.utils.Array import concat_arr
-from starkware.cairo.common.bool import TRUE
 
 //
 // Storage
@@ -27,7 +26,7 @@ func ERC721_tokenURI{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check
     alloc_locals;
 
     let exists = ERC721._exists(token_id);
-    assert exists = TRUE;
+    assert exists = 1;
 
     // Return tokenURI with an array of felts, `${base_tokenURI}/${token_id}`
     let (local base_tokenURI) = alloc();

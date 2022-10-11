@@ -5,6 +5,6 @@
     "value": "Grass Poison"
   }],
   "description": "Bulbasaur is a Grass/Poison type Pokémon introduced in Generation 1. It is known as the Seed Pokémon.",
-  "image": "",
+  "image": "https://raw.githubusercontent.com/0xs34n/ERC721-StarkNet-workshop/main/metadata/1.png",
   "external_url": "https://pokemondb.net/pokedex/bulbasaur"
 }

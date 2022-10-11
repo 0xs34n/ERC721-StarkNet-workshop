@@ -1,14 +1,17 @@
-// copied and modified from https://wizard.openzeppelin.com/cairo
 %lang starknet
 
 from starkware.cairo.common.cairo_builtins import HashBuiltin
 from starkware.cairo.common.uint256 import Uint256
 
-from openzeppelin.token.erc721.library import ERC721
-from openzeppelin.introspection.erc165.library import ERC165
 from openzeppelin.access.ownable.library import Ownable
-
+from openzeppelin.introspection.erc165.library import ERC165
+from openzeppelin.security.pausable.library import Pausable
+from openzeppelin.token.erc721.library import ERC721
 from contracts.tokenURI_library import ERC721_tokenURI, ERC721_setBaseTokenURI
+
+//
+// Constructor
+//
 
 @constructor
 func constructor{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
@@ -49,24 +52,24 @@ func balanceOf{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
 }
 
 @view
-func ownerOf{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
-    token_id: Uint256
-) -> (owner: felt) {
-    return ERC721.owner_of(token_id);
+func ownerOf{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(tokenId: Uint256) -> (
+    owner: felt
+) {
+    return ERC721.owner_of(tokenId);
 }
 
 @view
 func getApproved{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
-    token_id: Uint256
+    tokenId: Uint256
 ) -> (approved: felt) {
-    return ERC721.get_approved(token_id);
+    return ERC721.get_approved(tokenId);
 }
 
 @view
 func isApprovedForAll{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
     owner: felt, operator: felt
 ) -> (isApproved: felt) {
-    let (isApproved) = ERC721.is_approved_for_all(owner, operator);
+    let (isApproved: felt) = ERC721.is_approved_for_all(owner, operator);
     return (isApproved=isApproved);
 }
 
@@ -83,14 +86,20 @@ func owner{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}() ->
     return Ownable.owner();
 }
 
+@view
+func paused{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}() -> (paused: felt) {
+    return Pausable.is_paused();
+}
+
 //
 // Externals
 //
 
 @external
-func approve{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
+func approve{pedersen_ptr: HashBuiltin*, syscall_ptr: felt*, range_check_ptr}(
     to: felt, tokenId: Uint256
 ) {
+    Pausable.assert_not_paused();
     ERC721.approve(to, tokenId);
     return ();
 }
@@ -99,23 +108,45 @@ func approve{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
 func setApprovalForAll{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
     operator: felt, approved: felt
 ) {
+    Pausable.assert_not_paused();
     ERC721.set_approval_for_all(operator, approved);
     return ();
 }
 
 @external
-func transferFrom{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
+func transferFrom{pedersen_ptr: HashBuiltin*, syscall_ptr: felt*, range_check_ptr}(
     from_: felt, to: felt, tokenId: Uint256
 ) {
+    Pausable.assert_not_paused();
     ERC721.transfer_from(from_, to, tokenId);
     return ();
 }
 
 @external
-func safeTransferFrom{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
+func safeTransferFrom{pedersen_ptr: HashBuiltin*, syscall_ptr: felt*, range_check_ptr}(
     from_: felt, to: felt, tokenId: Uint256, data_len: felt, data: felt*
 ) {
+    Pausable.assert_not_paused();
     ERC721.safe_transfer_from(from_, to, tokenId, data_len, data);
+    return ();
+}
+
+@external
+func mint{pedersen_ptr: HashBuiltin*, syscall_ptr: felt*, range_check_ptr}(
+    to: felt, tokenId: Uint256
+) {
+    Pausable.assert_not_paused();
+    Ownable.assert_only_owner();
+    ERC721._mint(to, tokenId);
+    return ();
+}
+
+@external
+func setTokenURI{pedersen_ptr: HashBuiltin*, syscall_ptr: felt*, range_check_ptr}(
+    tokenURI_len: felt, tokenURI: felt*
+) {
+    Ownable.assert_only_owner();
+    ERC721_setBaseTokenURI(tokenURI_len, tokenURI);
     return ();
 }
 
@@ -134,20 +165,15 @@ func renounceOwnership{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_che
 }
 
 @external
-func safeMint{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
-    to: felt, tokenId: Uint256, data_len: felt, data: felt*, tokenURI: felt
-) {
+func pause{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}() {
     Ownable.assert_only_owner();
-    ERC721._safe_mint(to, tokenId, data_len, data);
-    ERC721._set_token_uri(tokenId, tokenURI);
+    Pausable._pause();
     return ();
 }
 
 @external
-func setTokenURI{pedersen_ptr: HashBuiltin*, syscall_ptr: felt*, range_check_ptr}(
-    base_token_uri_len: felt, base_token_uri: felt*, token_uri_suffix: felt
-) {
+func unpause{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}() {
     Ownable.assert_only_owner();
-    ERC721_setBaseTokenURI(base_token_uri_len, base_token_uri);
+    Pausable._unpause();
     return ();
 }

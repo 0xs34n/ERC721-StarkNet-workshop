@@ -5,6 +5,6 @@
     "value": "Water"
   }],
   "description": "Wartortle is a Water type Pokémon introduced in Generation 1. It is known as the Turtle Pokémon.",
-  "image": "",
+  "image": "https://raw.githubusercontent.com/0xs34n/ERC721-StarkNet-workshop/main/metadata/8.png",
   "external_url": "https://pokemondb.net/pokedex/wartortle"
 }
