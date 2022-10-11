@@ -3,7 +3,7 @@ import { defaultProvider, shortString, stark, json } from "starknet";
 import { stringToFeltArray } from "./util.js";
 
 const compiledERC721 = json.parse(
-  fs.readFileSync("./artifacts/ERC721-base.json").toString("ascii")
+  fs.readFileSync("./artifacts/ERC721.json").toString("ascii")
 );
 
 const baseTokenURI = stringToFeltArray(

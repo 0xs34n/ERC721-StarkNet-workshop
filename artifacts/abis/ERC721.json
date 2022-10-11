@@ -19,6 +19,43 @@
     {
         "data": [
             {
+                "name": "previousOwner",
+                "type": "felt"
+            },
+            {
+                "name": "newOwner",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "account",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "Paused",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "account",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "Unpaused",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
                 "name": "from_",
                 "type": "felt"
             },
@@ -71,21 +108,6 @@
         ],
         "keys": [],
         "name": "ApprovalForAll",
-        "type": "event"
-    },
-    {
-        "data": [
-            {
-                "name": "previousOwner",
-                "type": "felt"
-            },
-            {
-                "name": "newOwner",
-                "type": "felt"
-            }
-        ],
-        "keys": [],
-        "name": "OwnershipTransferred",
         "type": "event"
     },
     {
@@ -176,7 +198,7 @@
     {
         "inputs": [
             {
-                "name": "token_id",
+                "name": "tokenId",
                 "type": "Uint256"
             }
         ],
@@ -193,7 +215,7 @@
     {
         "inputs": [
             {
-                "name": "token_id",
+                "name": "tokenId",
                 "type": "Uint256"
             }
         ],
@@ -256,6 +278,34 @@
             {
                 "name": "owner",
                 "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "paused",
+        "outputs": [
+            {
+                "name": "paused",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "contractURI",
+        "outputs": [
+            {
+                "name": "contract_uri_len",
+                "type": "felt"
+            },
+            {
+                "name": "contract_uri",
+                "type": "felt*"
             }
         ],
         "stateMutability": "view",
@@ -340,6 +390,36 @@
     {
         "inputs": [
             {
+                "name": "to",
+                "type": "felt"
+            },
+            {
+                "name": "tokenId",
+                "type": "Uint256"
+            }
+        ],
+        "name": "mint",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "tokenURI_len",
+                "type": "felt"
+            },
+            {
+                "name": "tokenURI",
+                "type": "felt*"
+            }
+        ],
+        "name": "setTokenURI",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
                 "name": "newOwner",
                 "type": "felt"
             }
@@ -355,48 +435,29 @@
         "type": "function"
     },
     {
-        "inputs": [
-            {
-                "name": "to",
-                "type": "felt"
-            },
-            {
-                "name": "tokenId",
-                "type": "Uint256"
-            },
-            {
-                "name": "data_len",
-                "type": "felt"
-            },
-            {
-                "name": "data",
-                "type": "felt*"
-            },
-            {
-                "name": "tokenURI",
-                "type": "felt"
-            }
-        ],
-        "name": "safeMint",
+        "inputs": [],
+        "name": "pause",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "unpause",
         "outputs": [],
         "type": "function"
     },
     {
         "inputs": [
             {
-                "name": "base_token_uri_len",
+                "name": "contract_uri_len",
                 "type": "felt"
             },
             {
-                "name": "base_token_uri",
+                "name": "contract_uri",
                 "type": "felt*"
-            },
-            {
-                "name": "token_uri_suffix",
-                "type": "felt"
             }
         ],
-        "name": "setTokenURI",
+        "name": "setContractURI",
         "outputs": [],
         "type": "function"
     }

@@ -8,6 +8,7 @@ from openzeppelin.introspection.erc165.library import ERC165
 from openzeppelin.security.pausable.library import Pausable
 from openzeppelin.token.erc721.library import ERC721
 from contracts.tokenURI_library import ERC721_tokenURI, ERC721_setBaseTokenURI
+from contracts.contractURI_library import ERC721_contractURI, ERC721_setBaseContractURI
 
 //
 // Constructor
@@ -89,6 +90,14 @@ func owner{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}() ->
 @view
 func paused{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}() -> (paused: felt) {
     return Pausable.is_paused();
+}
+
+@view
+func contractURI{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}() -> (
+    contract_uri_len: felt, contract_uri: felt*
+) {
+    let (contract_uri_len, contract_uri) = ERC721_contractURI();
+    return (contract_uri_len, contract_uri);
 }
 
 //
@@ -175,5 +184,14 @@ func pause{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}() {
 func unpause{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}() {
     Ownable.assert_only_owner();
     Pausable._unpause();
+    return ();
+}
+
+@external
+func setContractURI{pedersen_ptr: HashBuiltin*, syscall_ptr: felt*, range_check_ptr}(
+    contract_uri_len: felt, contract_uri: felt*
+) {
+    Ownable.assert_only_owner();
+    ERC721_setBaseContractURI(contract_uri_len, contract_uri);
     return ();
 }
