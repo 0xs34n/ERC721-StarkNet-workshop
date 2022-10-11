@@ -24,17 +24,17 @@ const ERC721Response = await defaultProvider.deployContract({
 });
 
 console.log(
-  `Check the status of the NFT contract deployment transaction: https://testnet.starkscan.co/tx/${ERC721Response.transaction_hash}`
+  `\nCheck the status of the NFT contract deployment transaction: https://testnet.starkscan.co/tx/${ERC721Response.transaction_hash}\n`
 );
 
 console.log(
-  `Once the deployment transaction is done, go to https://testnet.starkscan.co/contract/${ERC721Response.contract_address} and to the "Write Contract" tab to mint your NFT!`
+  `\nOnce the deployment transaction is done, go to https://testnet.starkscan.co/contract/${ERC721Response.contract_address} and to the "Write Contract" tab to mint your NFT!\n`
 );
 
 console.log(
-  `Go to the "mint" function and enter your wallet address ${WALLET_ADDRESS} in the "to" input and the token ID (1, 2, 3...9) in the "tokenId" input`
+  `\nGo to the "mint" function and enter your wallet address ${WALLET_ADDRESS} in the "to" input and the token ID (1, 2, 3...9) in the "tokenId" input\n`
 );
 
 console.log(
-  `Once the mint transaction is done, go to https://testnet.aspect.co/collection/${ERC721Response.contract_address} to see your NFT!`
+  `\nOnce the mint transaction is done, go to https://testnet.aspect.co/collection/${ERC721Response.contract_address} to see your NFT!\n`
 );
